@@ -3,7 +3,7 @@ display:
     item: LEATHER_CHESTPLATE
 
 options:
-    default: true
+    default: false
     display: false
     needs-permission: false
     off-combat-health-regen: false

@@ -18,6 +18,7 @@ exp-table: cuu_chau_main
 max-level: 100
 
 options:
+    default: true
     needs-permission: false
     off-combat-health-regen: false
     off-combat-mana-regen: false

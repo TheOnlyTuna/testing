@@ -1,0 +1,13 @@
+permissions:
+  mmocore.class-select:
+    description: Allow players to select a class.
+    default: true
+  mmocore.attributes:
+    description: Allow players to manage attributes.
+    default: true
+  mmocore.skills:
+    description: Allow players to manage skills.
+    default: true
+  mmocore.profile:
+    description: Allow players to view their MMO profile.
+    default: true
