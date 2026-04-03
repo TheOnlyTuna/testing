@@ -1,0 +1,18 @@
+# GUI display name
+name: Chọn Căn Cơ
+
+# Number of slots in your inventory. Must be
+# between 9 and 54 and must be a multiple of 9.
+slots: 27
+
+items:
+  class-hao-kiet:
+    slots: [ 13 ]
+    function: class-hao-kiet
+    name: '&6&lHào Kiệt'
+    item: IRON_SWORD
+    item-flags: [ 'HIDE_ATTRIBUTES' ]
+    lore:
+      - '{lore}'
+      - ''
+      - '{attribute-lore}'

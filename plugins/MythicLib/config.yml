@@ -48,8 +48,8 @@ skip_elemental_damage_application: false
 # Delay should be used if your Users experience issues revolving around seeing too many hearts still. This can occur with plugins such as MySQL Inventory Bridge
 # The delay is in ticks. 20 ticks = 1 second
 health-scale:
-  enabled: false
-  scale: 20
+  enabled: true
+  scale: 40
   delay: 0
 
 critical-strikes:
@@ -165,9 +165,9 @@ game-indicators:
   # provided in the wiki in order to remove the gray background
   damage:
     enabled: true
-    min_damage: 0.1 # Under 0.1 damage, no indicator will show
+    min_damage: 0.5 # Under 0.5 damage, no indicator will show
     decimal-format: 0.#
-    format: '{icon} &f{value}'
+    format: '&c{value}'
     custom-font:
       enabled: false
       normal:
@@ -250,8 +250,8 @@ game-indicators:
 # every tick. By default it's set to 10 particles/tick. These particles
 # can be quite annoying and can even crash the client if there are too many.
 damage-particles-cap:
-  max-per-tick: 10
-  enabled: false
+  max-per-tick: 6
+  enabled: true
 
 # Due to a change made in 1.1.6 related to the movement speed
 # attribute, players see their movement speed reset to .1 when logging in

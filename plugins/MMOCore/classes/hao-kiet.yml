@@ -1,0 +1,97 @@
+display:
+    name: 'Hào Kiệt'
+    lore:
+    - 'Kẻ bước vào loạn thế với một thanh đao'
+    - 'và chút nội lực hộ thân.'
+    - ''
+    - 'Hạ quái, lên cấp, cộng thuộc tính và'
+    - 'mở dần ba kỹ năng nền của Cửu Châu.'
+    attribute-lore:
+    - '&a+ &7Max Health'
+    - '&a+ &7Max Mana'
+    - '&a+ &7Mana Regeneration'
+    - '&a+ &7Attack Damage'
+    item: 'IRON_SWORD:0'
+
+exp-curve: cuu-chau-main
+exp-table: cuu_chau_main
+max-level: 100
+
+options:
+    needs-permission: false
+    off-combat-health-regen: false
+    off-combat-mana-regen: false
+
+skill-slots:
+    1:
+        name: "Chiêu Thức I"
+        unlocked-by-default: true
+        lore: []
+    2:
+        name: "Chiêu Thức II"
+        unlocked-by-default: false
+        lore: []
+    3:
+        name: "Chiêu Thức III"
+        unlocked-by-default: false
+        lore: []
+
+mana:
+    char: '|'
+    icon: '&b✦'
+    color:
+        full: AQUA
+        half: DARK_AQUA
+        empty: WHITE
+    name: 'Nội Lực'
+
+cast-particle:
+    particle: REDSTONE
+    color:
+        red: 0
+        green: 170
+        blue: 255
+
+skills:
+    DAO_KICH:
+        level: 1
+        max-level: 10
+        unlocked-by-default: true
+    BO_PHAP:
+        level: 5
+        max-level: 5
+        unlocked-by-default: true
+    NOI_CONG_HO_THE:
+        level: 10
+        max-level: 5
+        unlocked-by-default: true
+
+attributes:
+    max-health:
+        base: 20
+        per-level: 0.6
+    max-mana:
+        base: 20
+        per-level: 0.8
+    mana-regeneration:
+        base: 0.3
+        per-level: 0.02
+    health-regeneration:
+        base: 0.1
+        per-level: 0
+    attack-damage:
+        base: 1
+        per-level: 0.05
+    attack-speed:
+        base: 4
+        per-level: 0
+    movement-speed:
+        base: 0.1
+        per-level: 0
+
+main-exp-sources:
+- 'killmob{type=ZOMBIE;amount=8-12}'
+- 'killmob{type=SKELETON;amount=9-13}'
+- 'killmob{type=SPIDER;amount=10-14}'
+- 'killmob{type=CREEPER;amount=12-16}'
+- 'killmob{type=ENDERMAN;amount=25-30}'

@@ -1,0 +1,26 @@
+display:
+    name: 'Human'
+    item: LEATHER_CHESTPLATE
+
+options:
+    default: true
+    display: false
+    needs-permission: false
+    off-combat-health-regen: false
+    off-combat-mana-regen: false
+
+exp-curve: '{level} * 200'
+
+skill-slots:
+    1:
+        name: "&aSkill Slot I"
+        unlocked-by-default: true
+        lore: []
+    2:
+        name: "&aSkill Slot II"
+        unlocked-by-default: false
+        lore: []
+    3:
+        name: "&aSkill Slot III"
+        unlocked-by-default: false
+        lore: []

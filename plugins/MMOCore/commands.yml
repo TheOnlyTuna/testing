@@ -1,0 +1,38 @@
+mmocore:
+  verbose: ALL
+cast:
+  main: cast
+  aliases: []
+  description: Enter casting mode
+  permission: mmocore.cast
+  verbose: ALL
+player:
+  main: player
+  aliases:
+  - p
+  - profile
+  description: Displays player stats
+  permission: mmocore.profile
+  verbose: ALL
+attributes:
+  main: attributes
+  aliases:
+  - att
+  - stats
+  description: Display and manage attributes
+  permission: mmocore.attributes
+  verbose: ALL
+class:
+  main: class
+  aliases:
+  - c
+  description: Select a new class
+  permission: mmocore.class-select
+  verbose: ALL
+skills:
+  main: skills
+  aliases:
+  - s
+  description: Spend skill points to unlock new skills
+  permission: mmocore.skills
+  verbose: ALL

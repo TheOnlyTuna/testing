@@ -1,0 +1,148 @@
+DAO_KICH:
+  source: 'mythiclib:cc_dao_kich'
+  name: 'Đao Kích'
+  icon: IRON_SWORD
+  lore:
+    - '&7Quét một nhát đao hình nón trước mặt.'
+    - ''
+    - '&e{cooldown}s Hồi chiêu'
+    - '&bTốn {mana} {mana_name}'
+    - '&c{damage} sát thương kỹ năng'
+  parameters:
+    delay:
+      player: 0
+    timer:
+      player: 0
+      name: Timer
+      item: 0.0
+    mana:
+      player:
+        base: 6
+        per-level: 0.25
+      name: Nội Lực
+      item: 0.0
+    stamina:
+      player: 0
+      name: Stamina
+      item: 0.0
+    cooldown:
+      player:
+        base: 3
+        per-level: -0.05
+        min: 2
+      name: Hồi chiêu
+      item: 3.0
+    damage:
+      player:
+        base: 8
+        per-level: 1.2
+      name: Sát thương
+      item: 8.0
+
+BO_PHAP:
+  source: default:LIGHT_DASH
+  name: 'Bộ Pháp'
+  icon: FEATHER
+  lore:
+    - '&7Lướt nhanh về phía trước, xuyên qua giao tranh.'
+    - ''
+    - '&e{cooldown}s Hồi chiêu'
+    - '&bTốn {mana} {mana_name}'
+  parameters:
+    timer:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      format: 0.#
+      name: Timer
+      item: 0.0
+    damage:
+      player:
+        base: 6
+        per-level: 0.6
+      name: Sát thương
+      item: 6.0
+    delay:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+    mana:
+      player:
+        base: 10
+        per-level: 0
+      name: Nội Lực
+      item: 0.0
+    stamina:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Stamina
+      item: 0.0
+    cooldown:
+      player:
+        base: 8
+        per-level: -0.1
+        min: 5
+      name: Hồi chiêu
+      item: 8.0
+    length:
+      player:
+        base: 4
+        per-level: 0.4
+        max: 6
+      name: Cự ly
+      item: 4.0
+
+NOI_CONG_HO_THE:
+  source: 'mythiclib:cc_noi_cong_ho_the'
+  name: 'Nội Công Hộ Thể'
+  icon: SHIELD
+  lore:
+    - '&7Vận nội lực để tăng giáp trong thời gian ngắn.'
+    - ''
+    - '&e{cooldown}s Hồi chiêu'
+    - '&bTốn {mana} {mana_name}'
+    - '&7+{armor} giáp trong {duration}s'
+  parameters:
+    delay:
+      player: 0
+    timer:
+      player: 0
+      name: Timer
+      item: 0.0
+    mana:
+      player:
+        base: 12
+        per-level: 0.3
+      name: Nội Lực
+      item: 0.0
+    stamina:
+      player: 0
+      name: Stamina
+      item: 0.0
+    cooldown:
+      player:
+        base: 14
+        per-level: -0.2
+        min: 8
+      name: Hồi chiêu
+      item: 14.0
+    duration:
+      player:
+        base: 3
+        per-level: 0.2
+      format: 0.#
+      name: Thời gian
+      item: 3.0
+    armor:
+      player:
+        base: 4
+        per-level: 0.8
+      name: Giáp
+      item: 4.0

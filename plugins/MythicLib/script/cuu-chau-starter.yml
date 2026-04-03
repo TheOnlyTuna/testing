@@ -1,0 +1,13 @@
+cc_dao_kich:
+  public: true
+  mechanics:
+    - 'sound{sound=ENTITY_PLAYER_ATTACK_SWEEP;pitch=1;volume=1}'
+    - 'damage{amount="<modifier.damage>";damage_types="PHYSICAL,SKILL";target={type=cone;angle=50;radius=3;position=EYES}}'
+    - 'particle{particle=SWEEP_ATTACK;amount=1;target=caster}'
+
+cc_noi_cong_ho_the:
+  public: true
+  mechanics:
+    - 'sound{sound=ITEM_SHIELD_BLOCK;pitch=1;volume=1}'
+    - 'add_stat{stat=ARMOR;amount="<modifier.armor>";time="<modifier.duration> * 20";key=noi_cong_ho_the;target=caster;unique=true}'
+    - 'particle{particle=CRIT_MAGIC;amount=20;target=caster}'

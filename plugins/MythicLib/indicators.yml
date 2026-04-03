@@ -5,11 +5,11 @@ damage_indicators:
   enabled: true
 
   # Under 0.1 damage, no indicator will show
-  min_damage: 0.1
+  min_damage: 0.5
 
   # Use format: 'ᜌ{icon} &f{value}ᜌ' along with the resource pack
   # provided in the wiki in order to remove the gray background
-  format: '{icon} &f{value}'
+  format: '&c{value}'
   decimal_format: '0.#'
 
   custom_font:
@@ -117,4 +117,3 @@ regen_indicators:
   entity_radius_percent: 0.75
   tick_period: 3
   lifespan: 20
-
