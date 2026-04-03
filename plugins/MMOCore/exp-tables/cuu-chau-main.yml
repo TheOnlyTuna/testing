@@ -2,12 +2,12 @@ cuu_chau_main:
   every_level_attr:
     period: 1
     triggers:
-      - 'command{format="mmocore admin attribute-points add %player_name% 2"}'
+      - 'command{format="mmocore admin attribute-points give %player% 2"}'
 
   every_5_levels_skill:
     period: 5
     triggers:
-      - 'command{format="mmocore admin skill-points add %player_name% 1"}'
+      - 'command{format="mmocore admin skill-points give %player% 1"}'
 
   slot_2_unlock:
     period: 0
