@@ -1,0 +1,30 @@
+schema_version: 1
+hotspots:
+  - id: hotspot.transition.sinh_tro.01
+    name: Sinh Tro
+    zone_type: HOTSPOT_OUTER
+    region_theme: transition_xich_nhiet_kinh_trieu
+    center:
+      x: 650
+      y: 70
+      z: -1350
+    landmark_core_zone_id: zone.main.landmark_core.sinh_tro.01
+    inner_zone_id: hotspot.transition.sinh_tro.01.inner
+    outer_zone_id: hotspot.transition.sinh_tro.01.outer
+    reward_reason: material.region.da_mach_do
+    goal_summary: better_xp_and_conflict_materials
+    readability_cues:
+      title: true
+      action_bar: true
+      boss_bar: true
+      particles: true
+    marker_style: ash_pillar
+    pressure_profile:
+      mob_family_ids:
+        - mob_family.bo_binh_thoi_rua
+        - mob_family.xa_thu_hoang_vuc
+        - mob_family.bay_san_moi
+        - mob_family.ke_cay_doc
+        - mob_family.ke_ngat_niem
+        - mob_family.phao_dai_di_dong
+      elite_spawn_id: mob_variant.nham_thu_tran_lo.elite

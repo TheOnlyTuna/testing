@@ -1,0 +1,30 @@
+schema_version: 1
+xp_rewards:
+  mob_defaults:
+    t1_common: 18
+    t1_elite: 52
+  block_break:
+    COAL_ORE: 8
+    DEEPSLATE_COAL_ORE: 8
+    IRON_ORE: 10
+    DEEPSLATE_IRON_ORE: 10
+    SHORT_GRASS: 0
+    TALL_GRASS: 0
+    GRASS_BLOCK: 0
+    DIRT: 0
+    COARSE_DIRT: 0
+  recipe_completion:
+    recipe.station.coi_xay.nghien_hong_mach: 8
+    recipe.station.coi_xay.nghien_thanh_dau: 8
+    recipe.station.coi_xay.tan_xuong_muc: 8
+    recipe.station.noi_nau.banh_hong_mach: 14
+    recipe.station.noi_nau.chao_thanh_tuc: 14
+    recipe.station.noi_nau.nen_duoc_dich: 16
+    recipe.station.noi_nau.luyen_sat_tinh: 12
+    recipe.station.binh_u.xuc_tac_tan: 18
+    recipe.station.lo_tinh_luyen.phoi_sat_tinh: 20
+    recipe.upgrade.weapon.d_to_c: 24
+    recipe.upgrade.armor.battle_helm.d_to_c: 20
+    recipe.upgrade.armor.light_armor.d_to_c: 20
+    recipe.upgrade.armor.war_greaves.d_to_c: 20
+    recipe.upgrade.armor.war_boots.d_to_c: 20

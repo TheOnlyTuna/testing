@@ -1,0 +1,17 @@
+schema_version: 1
+currencies:
+  - id: currency.dong
+    display_name: Dong
+    category: base
+    premium: false
+    allowed_in_power_loop: true
+  - id: currency.bac
+    display_name: Bac
+    category: progression
+    premium: false
+    allowed_in_power_loop: true
+  - id: currency.linh_ngoc
+    display_name: Linh Ngoc
+    category: premium
+    premium: true
+    allowed_in_power_loop: false

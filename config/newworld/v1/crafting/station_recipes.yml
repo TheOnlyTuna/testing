@@ -1,0 +1,86 @@
+schema_version: 1
+recipes:
+  - id: recipe.station.coi_xay.nghien_hong_mach
+    station_id: station.coi_xay
+    inputs:
+      - id: material.agri.hong_mach
+        amount: 2
+    outputs:
+      - id: material.food.bot_hong_mach
+        amount: 1
+  - id: recipe.station.coi_xay.nghien_thanh_dau
+    station_id: station.coi_xay
+    inputs:
+      - id: material.agri.thanh_dau
+        amount: 2
+    outputs:
+      - id: material.food.bot_thanh_dau
+        amount: 1
+  - id: recipe.station.coi_xay.tan_xuong_muc
+    station_id: station.coi_xay
+    inputs:
+      - id: material.mob.xuong_muc
+        amount: 2
+    outputs:
+      - id: material.alchemy.bot_xuong_muc
+        amount: 1
+  - id: recipe.station.noi_nau.banh_hong_mach
+    station_id: station.noi_nau
+    inputs:
+      - id: material.food.bot_hong_mach
+        amount: 1
+      - id: material.agri.thach_cu
+        amount: 1
+    outputs:
+      - id: material.food.banh_hong_mach
+        amount: 1
+  - id: recipe.station.noi_nau.chao_thanh_tuc
+    station_id: station.noi_nau
+    inputs:
+      - id: material.food.bot_thanh_dau
+        amount: 1
+      - id: material.agri.thach_cu
+        amount: 1
+    outputs:
+      - id: material.food.chao_thanh_tuc
+        amount: 1
+  - id: recipe.station.noi_nau.nen_duoc_dich
+    station_id: station.noi_nau
+    inputs:
+      - id: material.mob.bot_hu_huyet
+        amount: 1
+      - id: material.alchemy.bot_xuong_muc
+        amount: 1
+    outputs:
+      - id: material.alchemy.nen_duoc_dich
+        amount: 1
+  - id: recipe.station.noi_nau.luyen_sat_tinh
+    station_id: station.noi_nau
+    inputs:
+      - id: material.basic.than_cung
+        amount: 2
+      - id: material.region.da_mach_do
+        amount: 1
+    outputs:
+      - id: material.basic.sat_tinh
+        amount: 2
+  - id: recipe.station.binh_u.xuc_tac_tan
+    station_id: station.binh_u
+    inputs:
+      - id: material.alchemy.nen_duoc_dich
+        amount: 1
+      - id: material.element.manh_tan
+        amount: 1
+    outputs:
+      - id: material.alchemy.xuc_tac_tan
+        amount: 1
+  - id: recipe.station.lo_tinh_luyen.phoi_sat_tinh
+    station_id: station.lo_tinh_luyen
+    inputs:
+      - id: material.basic.sat_tinh
+        amount: 2
+      - id: material.basic.than_cung
+        amount: 1
+    outputs:
+      - id: material.refine.phoi_sat_tinh
+        amount: 1

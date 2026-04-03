@@ -1,0 +1,66 @@
+schema_version: 1
+upgrade_recipes:
+  - id: recipe.upgrade.weapon.d_to_c
+    from_gear_id: gear.weapon.longsword.d
+    to_gear_id: gear.weapon.longsword.c
+    currency_cost:
+      currency.bac: 30
+    materials:
+      - id: material.refine.phoi_sat_tinh
+        amount: 3
+      - id: material.alchemy.xuc_tac_tan
+        amount: 1
+      - id: material.mob.gan_kho
+        amount: 2
+      - id: material.refine.phe_trang
+        amount: 2
+  - id: recipe.upgrade.armor.battle_helm.d_to_c
+    from_gear_id: gear.armor.battle_helm.d
+    to_gear_id: gear.armor.battle_helm.c
+    currency_cost:
+      currency.bac: 30
+    materials:
+      - id: material.refine.phoi_sat_tinh
+        amount: 3
+      - id: material.alchemy.xuc_tac_tan
+        amount: 1
+      - id: material.refine.phe_trang
+        amount: 2
+  - id: recipe.upgrade.armor.light_armor.d_to_c
+    from_gear_id: gear.armor.light_armor.d
+    to_gear_id: gear.armor.light_armor.c
+    currency_cost:
+      currency.bac: 30
+    materials:
+      - id: material.refine.phoi_sat_tinh
+        amount: 3
+      - id: material.alchemy.xuc_tac_tan
+        amount: 1
+      - id: material.refine.phe_trang
+        amount: 2
+  - id: recipe.upgrade.armor.war_greaves.d_to_c
+    from_gear_id: gear.armor.war_greaves.d
+    to_gear_id: gear.armor.war_greaves.c
+    currency_cost:
+      currency.bac: 30
+    materials:
+      - id: material.refine.phoi_sat_tinh
+        amount: 3
+      - id: material.alchemy.xuc_tac_tan
+        amount: 1
+      - id: material.refine.phe_trang
+        amount: 2
+  - id: recipe.upgrade.armor.war_boots.d_to_c
+    from_gear_id: gear.armor.war_boots.d
+    to_gear_id: gear.armor.war_boots.c
+    currency_cost:
+      currency.bac: 30
+    materials:
+      - id: material.refine.phoi_sat_tinh
+        amount: 3
+      - id: material.alchemy.xuc_tac_tan
+        amount: 1
+      - id: material.refine.phe_trang
+        amount: 2
+
+

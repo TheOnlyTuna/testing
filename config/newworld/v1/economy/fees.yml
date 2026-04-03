@@ -1,0 +1,28 @@
+schema_version: 1
+fees:
+  - id: fee.upgrade.weapon.d_to_c
+    currency_id: currency.bac
+    amount: 30
+  - id: fee.upgrade.armor.d_to_c
+    currency_id: currency.bac
+    amount: 30
+  - id: fee.claim.personal.create
+    currency_id: currency.dong
+    amount: 40
+  - id: fee.claim.personal.expand
+    currency_id: currency.dong
+    amount: 65
+sources:
+  - id: source.mob_reward.dong
+    currency_id: currency.dong
+  - id: source.mob_reward.bac
+    currency_id: currency.bac
+sinks:
+  - id: sink.upgrade.weapon
+    currency_id: currency.bac
+  - id: sink.upgrade.armor
+    currency_id: currency.bac
+  - id: sink.claim.personal.create
+    currency_id: currency.dong
+  - id: sink.claim.personal.expand
+    currency_id: currency.dong

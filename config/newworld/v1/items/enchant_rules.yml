@@ -1,0 +1,11 @@
+schema_version: 1
+combat_gear:
+  allow_vanilla_enchants: false
+survival_tools:
+  allowed_enchants:
+    - efficiency
+    - fortune
+    - silk_touch
+    - unbreaking
+    - mending
+

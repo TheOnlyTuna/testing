@@ -1,0 +1,292 @@
+schema_version: 1
+reward_tables:
+  - variant_id: mob_variant.bo_binh_thoi_rua.tan_binh_muc_rua
+    xp: 20
+    currency:
+      currency.dong: 12
+      currency.bac: 0
+    materials:
+      - id: material.mob.xuong_muc
+        min: 2
+        max: 3
+  - variant_id: mob_variant.bo_binh_thoi_rua.giac_dau_muc_rua
+    xp: 22
+    currency:
+      currency.dong: 14
+      currency.bac: 0
+    materials:
+      - id: material.mob.xuong_muc
+        min: 2
+        max: 3
+      - id: material.mob.gan_kho
+        min: 1
+        max: 1
+  - variant_id: mob_variant.xa_thu_hoang_vuc.cung_thu_tan_phong
+    xp: 20
+    currency:
+      currency.dong: 10
+      currency.bac: 0
+    materials:
+      - id: material.mob.bot_hu_huyet
+        min: 2
+        max: 3
+  - variant_id: mob_variant.xa_thu_hoang_vuc.loi_tieu_ta
+    xp: 22
+    currency:
+      currency.dong: 12
+      currency.bac: 2
+    materials:
+      - id: material.mob.bot_hu_huyet
+        min: 2
+        max: 3
+      - id: material.element.manh_tan
+        min: 1
+        max: 1
+  - variant_id: mob_variant.phao_dai_di_dong.no_khi_boc_sat
+    xp: 26
+    currency:
+      currency.dong: 15
+      currency.bac: 2
+    materials:
+      - id: material.refine.phe_trang
+        min: 1
+        max: 1
+  - variant_id: mob_variant.phao_dai_di_dong.xa_thu_pha_tan
+    xp: 28
+    currency:
+      currency.dong: 16
+      currency.bac: 2
+    materials:
+      - id: material.refine.phe_trang
+        min: 1
+        max: 1
+      - id: material.region.da_mach_do
+        min: 1
+        max: 1
+  - variant_id: mob_variant.nham_thu_tran_lo.elite
+    xp: 64
+    currency:
+      currency.dong: 0
+      currency.bac: 8
+    materials:
+      - id: material.refine.phe_trang
+        min: 2
+        max: 3
+      - id: material.region.da_mach_do
+        min: 2
+        max: 3
+  - variant_id: mob_variant.bo_binh_thoi_rua.chi_huy_muc_rua
+    xp: 30
+    currency:
+      currency.dong: 15
+      currency.bac: 1
+    materials:
+      - id: material.mob.xuong_muc
+        min: 2
+        max: 3
+      - id: material.mob.gan_kho
+        min: 1
+        max: 2
+  - variant_id: mob_variant.xa_thu_hoang_vuc.ban_ta_hoang_vuc
+    xp: 32
+    currency:
+      currency.dong: 16
+      currency.bac: 1
+    materials:
+      - id: material.mob.bot_hu_huyet
+        min: 2
+        max: 3
+      - id: material.element.manh_tan
+        min: 1
+        max: 1
+  - variant_id: mob_variant.bay_san_moi.nha_sat_ve_dem
+    xp: 24
+    currency:
+      currency.dong: 10
+      currency.bac: 0
+    materials:
+      - id: material.mob.xuong_muc
+        min: 1
+        max: 2
+  - variant_id: mob_variant.bay_san_moi.vo_canh_cat_xe
+    xp: 24
+    currency:
+      currency.dong: 12
+      currency.bac: 0
+    materials:
+      - id: material.mob.xuong_muc
+        min: 1
+        max: 2
+      - id: material.mob.bot_hu_huyet
+        min: 1
+        max: 2
+  - variant_id: mob_variant.bay_san_moi.dau_dan_truy_sat
+    xp: 36
+    currency:
+      currency.dong: 16
+      currency.bac: 1
+    materials:
+      - id: material.mob.xuong_muc
+        min: 2
+        max: 3
+      - id: material.mob.gan_kho
+        min: 1
+        max: 1
+  - variant_id: mob_variant.ke_cay_doc.mam_doc_kich_phat
+    xp: 24
+    currency:
+      currency.dong: 12
+      currency.bac: 0
+    materials:
+      - id: material.mob.bot_hu_huyet
+        min: 2
+        max: 3
+  - variant_id: mob_variant.ke_cay_doc.bai_u_doc
+    xp: 28
+    currency:
+      currency.dong: 15
+      currency.bac: 2
+    materials:
+      - id: material.mob.bot_hu_huyet
+        min: 2
+        max: 3
+      - id: material.element.manh_tan
+        min: 1
+        max: 1
+  - variant_id: mob_variant.ke_cay_doc.cot_doc_lenh
+    xp: 44
+    currency:
+      currency.dong: 18
+      currency.bac: 2
+    materials:
+      - id: material.mob.bot_hu_huyet
+        min: 3
+        max: 4
+      - id: material.element.manh_tan
+        min: 1
+        max: 2
+  - variant_id: mob_variant.ke_ngat_niem.xa_tri_niem
+    xp: 36
+    currency:
+      currency.dong: 16
+      currency.bac: 1
+    materials:
+      - id: material.element.manh_tan
+        min: 1
+        max: 1
+      - id: material.refine.phe_trang
+        min: 1
+        max: 1
+  - variant_id: mob_variant.ke_ngat_niem.pha_an_niem
+    xp: 42
+    currency:
+      currency.dong: 18
+      currency.bac: 2
+    materials:
+      - id: material.element.manh_tan
+        min: 1
+        max: 2
+      - id: material.refine.phe_trang
+        min: 1
+        max: 1
+  - variant_id: mob_variant.ke_ngat_niem.dut_mach_tam
+    xp: 52
+    currency:
+      currency.dong: 20
+      currency.bac: 3
+    materials:
+      - id: material.element.manh_tan
+        min: 2
+        max: 2
+      - id: material.region.da_mach_do
+        min: 1
+        max: 2
+  - variant_id: mob_variant.giao_si_di_hoa.te_le_hu_huyet
+    xp: 38
+    currency:
+      currency.dong: 17
+      currency.bac: 1
+    materials:
+      - id: material.refine.phe_trang
+        min: 1
+        max: 1
+      - id: material.mob.bot_hu_huyet
+        min: 1
+        max: 2
+  - variant_id: mob_variant.giao_si_di_hoa.giao_doan_bien_dang
+    xp: 48
+    currency:
+      currency.dong: 20
+      currency.bac: 2
+    materials:
+      - id: material.refine.phe_trang
+        min: 1
+        max: 2
+      - id: material.region.da_mach_do
+        min: 1
+        max: 1
+  - variant_id: mob_variant.giao_si_di_hoa.chu_te_ta_hinh
+    xp: 60
+    currency:
+      currency.dong: 24
+      currency.bac: 3
+    materials:
+      - id: material.refine.phe_trang
+        min: 2
+        max: 2
+      - id: material.region.da_mach_do
+        min: 1
+        max: 2
+      - id: material.basic.than_cung
+        min: 1
+        max: 1
+  - variant_id: mob_variant.thu_linh_da_ngoai.dau_linh_hoang_vuc
+    xp: 54
+    currency:
+      currency.dong: 22
+      currency.bac: 3
+    materials:
+      - id: material.mob.gan_kho
+        min: 2
+        max: 2
+      - id: material.refine.phe_trang
+        min: 1
+        max: 2
+      - id: material.basic.than_cung
+        min: 1
+        max: 2
+  - variant_id: mob_variant.thu_linh_da_ngoai.tong_doc_sinh_tro.elite
+    xp: 88
+    currency:
+      currency.dong: 0
+      currency.bac: 8
+    materials:
+      - id: material.refine.phe_trang
+        min: 2
+        max: 3
+      - id: material.region.da_mach_do
+        min: 2
+        max: 3
+      - id: material.element.manh_tan
+        min: 1
+        max: 2
+  - variant_id: mob_variant.thu_linh_da_ngoai.bao_chua_tan_tich.elite
+    xp: 96
+    currency:
+      currency.dong: 0
+      currency.bac: 10
+    materials:
+      - id: material.refine.phe_trang
+        min: 3
+        max: 4
+      - id: material.region.da_mach_do
+        min: 2
+        max: 3
+      - id: material.mob.gan_kho
+        min: 2
+        max: 2
+      - id: material.basic.than_cung
+        min: 2
+        max: 2
+
+

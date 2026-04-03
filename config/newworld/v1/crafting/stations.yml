@@ -1,0 +1,22 @@
+schema_version: 1
+stations:
+  - id: station.coi_xay
+    name: Coi Xay
+    unlock_level: 1
+    enabled: true
+  - id: station.noi_nau
+    name: Noi Nau
+    unlock_level: 5
+    enabled: true
+  - id: station.binh_u
+    name: Binh U
+    unlock_level: 6
+    enabled: true
+  - id: station.lo_tinh_luyen
+    name: Lo Tinh Luyen
+    unlock_level: 8
+    enabled: true
+  - id: station.ban_ren
+    name: Ban Ren
+    unlock_level: 10
+    enabled: true

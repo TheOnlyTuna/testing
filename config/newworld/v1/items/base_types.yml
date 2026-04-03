@@ -1,0 +1,14 @@
+schema_version: 1
+base_types:
+  - id: base.weapon.longsword
+    slot: weapon
+    hand_requirement: main_hand
+  - id: base.armor.battle_helm
+    slot: helmet
+  - id: base.armor.light_armor
+    slot: chestplate
+  - id: base.armor.war_greaves
+    slot: leggings
+  - id: base.armor.war_boots
+    slot: boots
+

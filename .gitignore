@@ -1,0 +1,30 @@
+# Server binaries and downloaded runtime artifacts
+*.jar
+/cache/
+/libraries/
+/logs/
+/versions/
+/plugins/.paper-remapped/
+/plugins/WorldEdit/.archive-unpack/
+/plugins/WorldGuard/cache/
+/plugins/spark/tmp/
+
+# World data
+/world/
+/world_nether/
+/world_the_end/
+
+# Generated server and plugin state
+/banned-ips.json
+/banned-players.json
+/eula.txt
+/usercache.json
+/version_history.json
+/plugins/CMI/DatabaseBackups/
+/plugins/CMI/cmi.sqlite.db
+/plugins/CMI/security.key
+/plugins/MythicMobs/data/
+/plugins/ProtocolLib/lastupdate
+
+# Local shell history
+/.console_history

@@ -1,0 +1,251 @@
+schema_version: 1
+variants:
+  - id: mob_variant.bo_binh_thoi_rua.tan_binh_muc_rua
+    family_id: mob_family.bo_binh_thoi_rua
+    name: Bo Binh Thoi Rua - Tan Binh
+    tier: regular
+    entity_type: ZOMBIE
+    max_health: 28
+    spawn_weight: 5
+    zone_ids:
+      - zone.main.survival_main_01
+      - zone.main.tan_diem.survival_01
+  - id: mob_variant.bo_binh_thoi_rua.giac_dau_muc_rua
+    family_id: mob_family.bo_binh_thoi_rua
+    name: Bo Binh Thoi Rua - Giac Dau
+    tier: regular
+    entity_type: HUSK
+    max_health: 30
+    spawn_weight: 4
+    zone_ids:
+      - zone.main.tan_diem.survival_01
+      - hotspot.transition.sinh_tro.01.outer
+      - zone.resource.frontier_01
+  - id: mob_variant.bo_binh_thoi_rua.chi_huy_muc_rua
+    family_id: mob_family.bo_binh_thoi_rua
+    name: Bo Binh Thoi Rua - Chi Huy
+    tier: regular
+    entity_type: HUSK
+    max_health: 36
+    spawn_weight: 3
+    zone_ids:
+      - hotspot.transition.sinh_tro.01.outer
+      - zone.resource.frontier_01
+      - zone.main.dead_rim
+  - id: mob_variant.xa_thu_hoang_vuc.cung_thu_tan_phong
+    family_id: mob_family.xa_thu_hoang_vuc
+    name: Xa Thu Hoang Vuc - Cung Thu
+    tier: regular
+    entity_type: SKELETON
+    max_health: 24
+    spawn_weight: 5
+    zone_ids:
+      - zone.main.survival_main_01
+      - zone.main.tan_diem.survival_01
+  - id: mob_variant.xa_thu_hoang_vuc.loi_tieu_ta
+    family_id: mob_family.xa_thu_hoang_vuc
+    name: Xa Thu Hoang Vuc - Loi Tieu
+    tier: regular
+    entity_type: STRAY
+    max_health: 26
+    spawn_weight: 4
+    zone_ids:
+      - zone.main.tan_diem.survival_01
+      - hotspot.transition.sinh_tro.01.outer
+      - zone.resource.frontier_01
+  - id: mob_variant.xa_thu_hoang_vuc.ban_ta_hoang_vuc
+    family_id: mob_family.xa_thu_hoang_vuc
+    name: Xa Thu Hoang Vuc - Ban Ta
+    tier: regular
+    entity_type: SKELETON
+    max_health: 30
+    spawn_weight: 3
+    zone_ids:
+      - hotspot.transition.sinh_tro.01.outer
+      - zone.main.dead_rim
+      - zone.resource.frontier_01
+  - id: mob_variant.bay_san_moi.nha_sat_ve_dem
+    family_id: mob_family.bay_san_moi
+    name: Bay San Moi - Nha Sat Ve Dem
+    tier: regular
+    entity_type: SPIDER
+    max_health: 24
+    spawn_weight: 4
+    zone_ids:
+      - zone.main.survival_main_01
+      - zone.main.tan_diem.survival_01
+  - id: mob_variant.bay_san_moi.vo_canh_cat_xe
+    family_id: mob_family.bay_san_moi
+    name: Bay San Moi - Vo Canh Cat Xe
+    tier: regular
+    entity_type: CAVE_SPIDER
+    max_health: 26
+    spawn_weight: 4
+    zone_ids:
+      - zone.main.tan_diem.survival_01
+      - hotspot.transition.sinh_tro.01.outer
+      - zone.resource.frontier_01
+  - id: mob_variant.bay_san_moi.dau_dan_truy_sat
+    family_id: mob_family.bay_san_moi
+    name: Bay San Moi - Dau Dan Truy Sat
+    tier: regular
+    entity_type: SPIDER
+    max_health: 32
+    spawn_weight: 3
+    zone_ids:
+      - hotspot.transition.sinh_tro.01.outer
+      - zone.main.dead_rim
+      - zone.resource.frontier_01
+  - id: mob_variant.ke_cay_doc.mam_doc_kich_phat
+    family_id: mob_family.ke_cay_doc
+    name: Ke Cay Doc - Mam Doc Kich Phat
+    tier: regular
+    entity_type: CAVE_SPIDER
+    max_health: 28
+    spawn_weight: 4
+    zone_ids:
+      - zone.main.tan_diem.survival_01
+      - zone.resource.frontier_01
+  - id: mob_variant.ke_cay_doc.bai_u_doc
+    family_id: mob_family.ke_cay_doc
+    name: Ke Cay Doc - Bai U Doc
+    tier: regular
+    entity_type: WITCH
+    max_health: 34
+    spawn_weight: 3
+    zone_ids:
+      - hotspot.transition.sinh_tro.01.outer
+      - zone.resource.frontier_01
+      - zone.main.dead_rim
+  - id: mob_variant.ke_cay_doc.cot_doc_lenh
+    family_id: mob_family.ke_cay_doc
+    name: Ke Cay Doc - Cot Doc Lenh
+    tier: regular
+    entity_type: WITCH
+    max_health: 42
+    spawn_weight: 2
+    zone_ids:
+      - zone.resource.landmark_core.01
+      - zone.main.dead_rim
+      - zone.resource.dead_rim
+  - id: mob_variant.phao_dai_di_dong.no_khi_boc_sat
+    family_id: mob_family.phao_dai_di_dong
+    name: Phao Dai Di Dong - Boc Sat
+    tier: regular
+    entity_type: VINDICATOR
+    max_health: 42
+    spawn_weight: 3
+    zone_ids:
+      - hotspot.transition.sinh_tro.01.outer
+      - zone.resource.frontier_01
+  - id: mob_variant.phao_dai_di_dong.xa_thu_pha_tan
+    family_id: mob_family.phao_dai_di_dong
+    name: Phao Dai Di Dong - Pha Tan
+    tier: regular
+    entity_type: PILLAGER
+    max_health: 42
+    spawn_weight: 3
+    zone_ids:
+      - hotspot.transition.sinh_tro.01.outer
+      - zone.resource.landmark_core.01
+  - id: mob_variant.nham_thu_tran_lo.elite
+    family_id: mob_family.phao_dai_di_dong
+    name: Nham Thu Tran Lo
+    tier: elite
+    entity_type: RAVAGER
+    max_health: 96
+    spawn_weight: 1
+    zone_ids:
+      - hotspot.transition.sinh_tro.01.inner
+      - zone.main.landmark_core.sinh_tro.01
+  - id: mob_variant.ke_ngat_niem.xa_tri_niem
+    family_id: mob_family.ke_ngat_niem
+    name: Ke Ngat Niem - Xa Tri Niem
+    tier: regular
+    entity_type: SKELETON
+    max_health: 36
+    spawn_weight: 3
+    zone_ids:
+      - zone.main.dead_rim
+      - zone.resource.frontier_01
+  - id: mob_variant.ke_ngat_niem.pha_an_niem
+    family_id: mob_family.ke_ngat_niem
+    name: Ke Ngat Niem - Pha An Niem
+    tier: regular
+    entity_type: STRAY
+    max_health: 42
+    spawn_weight: 3
+    zone_ids:
+      - zone.resource.frontier_01
+      - zone.main.dead_rim
+      - zone.resource.landmark_core.01
+  - id: mob_variant.ke_ngat_niem.dut_mach_tam
+    family_id: mob_family.ke_ngat_niem
+    name: Ke Ngat Niem - Dut Mach Tam
+    tier: regular
+    entity_type: PILLAGER
+    max_health: 52
+    spawn_weight: 2
+    zone_ids:
+      - zone.main.dead_rim
+      - zone.resource.dead_rim
+      - zone.resource.landmark_core.01
+  - id: mob_variant.giao_si_di_hoa.te_le_hu_huyet
+    family_id: mob_family.giao_si_di_hoa
+    name: Giao Si Di Hoa - Te Le Hu Huyet
+    tier: regular
+    entity_type: WITCH
+    max_health: 38
+    spawn_weight: 3
+    zone_ids:
+      - zone.resource.frontier_01
+      - zone.main.dead_rim
+  - id: mob_variant.giao_si_di_hoa.giao_doan_bien_dang
+    family_id: mob_family.giao_si_di_hoa
+    name: Giao Si Di Hoa - Giao Doan Bien Dang
+    tier: regular
+    entity_type: VINDICATOR
+    max_health: 48
+    spawn_weight: 2
+    zone_ids:
+      - zone.resource.landmark_core.01
+      - zone.main.dead_rim
+  - id: mob_variant.giao_si_di_hoa.chu_te_ta_hinh
+    family_id: mob_family.giao_si_di_hoa
+    name: Giao Si Di Hoa - Chu Te Ta Hinh
+    tier: regular
+    entity_type: VINDICATOR
+    max_health: 60
+    spawn_weight: 1
+    zone_ids:
+      - zone.resource.dead_rim
+      - zone.main.landmark_core.sinh_tro.01
+  - id: mob_variant.thu_linh_da_ngoai.dau_linh_hoang_vuc
+    family_id: mob_family.thu_linh_da_ngoai
+    name: Thu Linh Da Ngoai - Dau Linh Hoang Vuc
+    tier: regular
+    entity_type: VINDICATOR
+    max_health: 54
+    spawn_weight: 2
+    zone_ids:
+      - zone.main.dead_rim
+      - zone.resource.frontier_01
+  - id: mob_variant.thu_linh_da_ngoai.tong_doc_sinh_tro.elite
+    family_id: mob_family.thu_linh_da_ngoai
+    name: Thu Linh Da Ngoai - Tong Doc Sinh Tro
+    tier: elite
+    entity_type: RAVAGER
+    max_health: 108
+    spawn_weight: 1
+    zone_ids:
+      - zone.main.landmark_core.sinh_tro.01
+  - id: mob_variant.thu_linh_da_ngoai.bao_chua_tan_tich.elite
+    family_id: mob_family.thu_linh_da_ngoai
+    name: Thu Linh Da Ngoai - Bao Chua Tan Tich
+    tier: elite
+    entity_type: RAVAGER
+    max_health: 120
+    spawn_weight: 1
+    zone_ids:
+      - zone.resource.landmark_core.01
+      - zone.resource.dead_rim

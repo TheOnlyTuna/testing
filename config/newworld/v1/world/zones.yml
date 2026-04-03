@@ -1,0 +1,188 @@
+schema_version: 1
+zones:
+  - id: zone.main.spawn_ring
+    name: Spawn Ring
+    world_scope: main
+    zone_type: SPAWN_RING
+    grave_behavior: KEEP_INVENTORY
+    priority: 100
+    center:
+      x: 0
+      y: 80
+      z: 0
+    shape:
+      type: circle
+      radius: 300
+    flags:
+      build: false
+      mine: false
+      farm: false
+      claim: false
+      pvp: false
+  - id: zone.main.survival_main_01
+    name: Main Survival Basin
+    world_scope: main
+    zone_type: SURVIVAL
+    grave_behavior: GRAVE_LOCKED_180
+    priority: 20
+    shape:
+      type: global
+    flags:
+      build: true
+      mine: true
+      farm: true
+      claim: true
+      pvp: true
+  - id: zone.main.tan_diem.survival_01
+    name: Vet Seo Xich Nhiet
+    world_scope: main
+    zone_type: SURVIVAL
+    grave_behavior: GRAVE_LOCKED_180
+    priority: 60
+    center:
+      x: 0
+      y: 72
+      z: -1200
+    shape:
+      type: rectangle
+      min_x: -420
+      max_x: 420
+      min_z: -1500
+      max_z: -900
+    flags:
+      build: true
+      mine: true
+      farm: true
+      claim: true
+      pvp: true
+  - id: zone.main.landmark_core.sinh_tro.01
+    name: Sinh Tro Landmark Core
+    world_scope: main
+    zone_type: LANDMARK_CORE
+    grave_behavior: GRAVE_LOCKED_180
+    priority: 95
+    center:
+      x: 940
+      y: 70
+      z: -1350
+    shape:
+      type: circle
+      radius: 64
+    flags:
+      build: false
+      mine: false
+      farm: false
+      claim: false
+      pvp: true
+  - id: hotspot.transition.sinh_tro.01.inner
+    name: Sinh Tro Inner
+    world_scope: main
+    zone_type: HOTSPOT_INNER
+    grave_behavior: GRAVE_LOCKED_180
+    priority: 90
+    center:
+      x: 650
+      y: 70
+      z: -1350
+    shape:
+      type: circle
+      radius: 128
+    flags:
+      build: false
+      mine: false
+      farm: false
+      claim: false
+      pvp: true
+  - id: hotspot.transition.sinh_tro.01.outer
+    name: Sinh Tro Outer
+    world_scope: main
+    zone_type: HOTSPOT_OUTER
+    grave_behavior: GRAVE_LOCKED_180
+    priority: 70
+    center:
+      x: 650
+      y: 70
+      z: -1350
+    shape:
+      type: ring
+      inner_radius: 128
+      outer_radius: 224
+    flags:
+      build: false
+      mine: false
+      farm: false
+      claim: false
+      pvp: true
+  - id: zone.main.dead_rim
+    name: Main Dead Rim
+    world_scope: main
+    zone_type: DEAD_RIM
+    grave_behavior: GRAVE_LOCKED_180
+    priority: 98
+    center:
+      x: 0
+      y: 70
+      z: 0
+    shape:
+      type: ring
+      inner_radius: 2200
+      outer_radius: 3200
+    flags:
+      build: false
+      mine: false
+      farm: false
+      claim: false
+      pvp: true
+  - id: zone.resource.frontier_01
+    name: Resource Frontier 01
+    world_scope: resource
+    zone_type: RESOURCE_SURVIVAL
+    grave_behavior: GRAVE_LOCKED_180
+    priority: 50
+    shape:
+      type: global
+    flags:
+      build: true
+      mine: true
+      farm: true
+      claim: false
+      pvp: true
+  - id: zone.resource.landmark_core.01
+    name: Resource Landmark Core
+    world_scope: resource
+    zone_type: LANDMARK_CORE
+    grave_behavior: GRAVE_LOCKED_180
+    priority: 80
+    center:
+      x: 256
+      y: 70
+      z: 0
+    shape:
+      type: circle
+      radius: 96
+    flags:
+      build: false
+      mine: false
+      farm: false
+      claim: false
+      pvp: true
+  - id: zone.resource.dead_rim
+    name: Resource Dead Rim
+    world_scope: resource
+    zone_type: DEAD_RIM
+    grave_behavior: GRAVE_LOCKED_180
+    priority: 98
+    center:
+      x: 0
+      y: 70
+      z: 0
+    shape:
+      type: ring
+      inner_radius: 2200
+      outer_radius: 3200
+    flags:
+      build: false
+      mine: false
+      farm: false
+      claim: false
+      pvp: true

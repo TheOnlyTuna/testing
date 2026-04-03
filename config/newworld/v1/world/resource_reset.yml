@@ -1,0 +1,29 @@
+schema_version: 1
+resource_world:
+  world_name: resource_frontier
+  reset_period_hours: 48
+  default_zone_id: zone.resource.frontier_01
+  grave_behavior: GRAVE_LOCKED_180
+  default_flags:
+    build: true
+    mine: true
+    farm: true
+    claim: false
+    pvp: true
+  reset_contract:
+    lock_new_entries: true
+    evacuate_players: true
+    preserve_main_world: true
+    unload_before_regenerate: true
+    verify_world_after_load: true
+  evacuation_spawn:
+    world: world
+    x: 0
+    y: 81
+    z: 0
+  announce_minutes_before:
+    - 30
+    - 10
+    - 5
+    - 1
+  dry_run_enabled: true

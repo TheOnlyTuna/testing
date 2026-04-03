@@ -1,0 +1,27 @@
+schema_version: 1
+systems:
+  - id: system.tan_diem
+    name: Tan Diem
+    affinity: fire
+    vertical_slice_enabled: true
+    alpha_core_enabled: true
+  - id: system.huyen_trieu
+    name: Huyen Trieu
+    affinity: water
+    vertical_slice_enabled: false
+    alpha_core_enabled: true
+  - id: system.chan_loi
+    name: Chan Loi
+    affinity: lightning
+    vertical_slice_enabled: true
+    alpha_core_enabled: true
+  - id: system.tran_nham
+    name: Tran Nham
+    affinity: earth
+    vertical_slice_enabled: true
+    alpha_core_enabled: true
+  - id: system.lam_phong
+    name: Lam Phong
+    affinity: wind
+    vertical_slice_enabled: false
+    alpha_core_enabled: true

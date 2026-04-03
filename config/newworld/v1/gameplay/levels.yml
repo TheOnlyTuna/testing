@@ -1,0 +1,36 @@
+schema_version: 1
+progression:
+  max_level: 60
+  unlock_milestones:
+    - level: 10
+      unlock_id: feature.shared.nguyen_an_1
+    - level: 20
+      unlock_id: feature.shared.bien_ky_1
+    - level: 30
+      unlock_id: feature.shared.ho_mach_1
+    - level: 40
+      unlock_id: feature.shared.linh_vuc_1
+    - level: 50
+      unlock_id: feature.shared.chuyen_tinh_1
+  early_curve:
+    - level: 1
+      total_xp: 0
+    - level: 2
+      total_xp: 60
+    - level: 3
+      total_xp: 140
+    - level: 4
+      total_xp: 240
+    - level: 5
+      total_xp: 360
+    - level: 6
+      total_xp: 500
+    - level: 7
+      total_xp: 660
+    - level: 8
+      total_xp: 840
+    - level: 9
+      total_xp: 1040
+    - level: 10
+      total_xp: 1260
+

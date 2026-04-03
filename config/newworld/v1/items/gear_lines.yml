@@ -1,0 +1,53 @@
+schema_version: 1
+gear_lines:
+  - id: gear.weapon.longsword.d
+    base_type_id: base.weapon.longsword
+    tier: D
+    display_name: Longsword D
+    combat_weapon: true
+  - id: gear.weapon.longsword.c
+    base_type_id: base.weapon.longsword
+    tier: C
+    display_name: Longsword C
+    combat_weapon: true
+  - id: gear.armor.battle_helm.d
+    base_type_id: base.armor.battle_helm
+    tier: D
+    display_name: Battle Helm D
+    combat_weapon: false
+  - id: gear.armor.battle_helm.c
+    base_type_id: base.armor.battle_helm
+    tier: C
+    display_name: Battle Helm C
+    combat_weapon: false
+  - id: gear.armor.light_armor.d
+    base_type_id: base.armor.light_armor
+    tier: D
+    display_name: Light Armor D
+    combat_weapon: false
+  - id: gear.armor.light_armor.c
+    base_type_id: base.armor.light_armor
+    tier: C
+    display_name: Light Armor C
+    combat_weapon: false
+  - id: gear.armor.war_greaves.d
+    base_type_id: base.armor.war_greaves
+    tier: D
+    display_name: War Greaves D
+    combat_weapon: false
+  - id: gear.armor.war_greaves.c
+    base_type_id: base.armor.war_greaves
+    tier: C
+    display_name: War Greaves C
+    combat_weapon: false
+  - id: gear.armor.war_boots.d
+    base_type_id: base.armor.war_boots
+    tier: D
+    display_name: War Boots D
+    combat_weapon: false
+  - id: gear.armor.war_boots.c
+    base_type_id: base.armor.war_boots
+    tier: C
+    display_name: War Boots C
+    combat_weapon: false
+

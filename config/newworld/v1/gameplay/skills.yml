@@ -1,0 +1,272 @@
+schema_version: 1
+skills:
+  - id: skill.tan_diem.passive.tuc_hoa
+    system_id: system.tan_diem
+    slot: passive
+    binding: PASSIVE
+    cast_type: PASSIVE
+    unlock_level: 1
+    cooldown_seconds: 0
+    resource_cost: 0
+    effect_summary: Burn refreshes grant a brief damage pulse.
+  - id: skill.tan_diem.hoa_liet
+    system_id: system.tan_diem
+    slot: skill_1
+    binding: RMB
+    cast_type: INSTANT
+    unlock_level: 1
+    cooldown_seconds: 4
+    resource_cost: 15
+    effect_summary: Forward slash that applies short burn.
+  - id: skill.tan_diem.tro_bung
+    system_id: system.tan_diem
+    slot: skill_2
+    binding: F
+    cast_type: INSTANT
+    unlock_level: 3
+    cooldown_seconds: 8
+    resource_cost: 20
+    effect_summary: Burst around the user and knocks back lightly.
+  - id: skill.tan_diem.luoi_lua
+    system_id: system.tan_diem
+    slot: skill_3
+    binding: Q
+    cast_type: DIRECTIONAL
+    unlock_level: 5
+    cooldown_seconds: 10
+    resource_cost: 25
+    effect_summary: Sends a linear flame wave through the target lane.
+  - id: skill.tan_diem.ket_gio_tan
+    system_id: system.tan_diem
+    slot: skill_4
+    binding: SHIFT_RMB
+    cast_type: DIRECTIONAL
+    unlock_level: 7
+    cooldown_seconds: 14
+    resource_cost: 30
+    effect_summary: Short guard break strike against elite armor.
+  - id: skill.tan_diem.ult.thien_hoa
+    system_id: system.tan_diem
+    slot: ultimate
+    binding: SHIFT_F
+    cast_type: GROUND_TARGET
+    unlock_level: 10
+    cooldown_seconds: 45
+    resource_cost: 60
+    effect_summary: Wide incendiary burst that secures hotspot space.
+  - id: skill.chan_loi.passive.tich_dien
+    system_id: system.chan_loi
+    slot: passive
+    binding: PASSIVE
+    cast_type: PASSIVE
+    unlock_level: 1
+    cooldown_seconds: 0
+    resource_cost: 0
+    effect_summary: Consecutive hits build static and speed bursts.
+  - id: skill.chan_loi.dien_thich
+    system_id: system.chan_loi
+    slot: skill_1
+    binding: RMB
+    cast_type: INSTANT
+    unlock_level: 1
+    cooldown_seconds: 4
+    resource_cost: 15
+    effect_summary: Fast thrust that marks a target with static.
+  - id: skill.chan_loi.giat_set
+    system_id: system.chan_loi
+    slot: skill_2
+    binding: F
+    cast_type: DIRECTIONAL
+    unlock_level: 3
+    cooldown_seconds: 7
+    resource_cost: 20
+    effect_summary: Instant dash cut with brief immunity frames.
+  - id: skill.chan_loi.ho_quang
+    system_id: system.chan_loi
+    slot: skill_3
+    binding: Q
+    cast_type: DIRECTIONAL
+    unlock_level: 5
+    cooldown_seconds: 11
+    resource_cost: 25
+    effect_summary: Arc strike that chains to clustered enemies.
+  - id: skill.chan_loi.tan_anh
+    system_id: system.chan_loi
+    slot: skill_4
+    binding: SHIFT_RMB
+    cast_type: DIRECTIONAL
+    unlock_level: 7
+    cooldown_seconds: 13
+    resource_cost: 30
+    effect_summary: Quick disengage into a follow-up counter.
+  - id: skill.chan_loi.ult.loi_truy
+    system_id: system.chan_loi
+    slot: ultimate
+    binding: SHIFT_F
+    cast_type: GROUND_TARGET
+    unlock_level: 10
+    cooldown_seconds: 45
+    resource_cost: 60
+    effect_summary: Locks a target area with repeated lightning strikes.
+  - id: skill.tran_nham.passive.thach_mach
+    system_id: system.tran_nham
+    slot: passive
+    binding: PASSIVE
+    cast_type: PASSIVE
+    unlock_level: 1
+    cooldown_seconds: 0
+    resource_cost: 0
+    effect_summary: Blocking or trading grants stagger resistance.
+  - id: skill.tran_nham.nham_xung
+    system_id: system.tran_nham
+    slot: skill_1
+    binding: RMB
+    cast_type: INSTANT
+    unlock_level: 1
+    cooldown_seconds: 5
+    resource_cost: 15
+    effect_summary: Heavy shove that displaces frontline targets.
+  - id: skill.tran_nham.dao_chan
+    system_id: system.tran_nham
+    slot: skill_2
+    binding: F
+    cast_type: INSTANT
+    unlock_level: 3
+    cooldown_seconds: 8
+    resource_cost: 20
+    effect_summary: Raises a short-lived stone barrier in melee range.
+  - id: skill.tran_nham.ngan_dia
+    system_id: system.tran_nham
+    slot: skill_3
+    binding: Q
+    cast_type: DIRECTIONAL
+    unlock_level: 5
+    cooldown_seconds: 10
+    resource_cost: 25
+    effect_summary: Cracks the ground and slows enemies in a lane.
+  - id: skill.tran_nham.tran_ap
+    system_id: system.tran_nham
+    slot: skill_4
+    binding: SHIFT_RMB
+    cast_type: INSTANT
+    unlock_level: 7
+    cooldown_seconds: 15
+    resource_cost: 30
+    effect_summary: Rooted stance that reduces incoming burst damage.
+  - id: skill.tran_nham.ult.dia_tran
+    system_id: system.tran_nham
+    slot: ultimate
+    binding: SHIFT_F
+    cast_type: GROUND_TARGET
+    unlock_level: 10
+    cooldown_seconds: 45
+    resource_cost: 60
+    effect_summary: Area slam that controls hotspot entrances.
+  - id: skill.huyen_trieu.passive.thuy_an
+    system_id: system.huyen_trieu
+    slot: passive
+    binding: PASSIVE
+    cast_type: PASSIVE
+    unlock_level: 1
+    cooldown_seconds: 0
+    resource_cost: 0
+    effect_summary: Striking slowed targets restores Noi Tuc and a short regen pulse.
+  - id: skill.huyen_trieu.thuy_tuc
+    system_id: system.huyen_trieu
+    slot: skill_1
+    binding: RMB
+    cast_type: INSTANT
+    unlock_level: 1
+    cooldown_seconds: 4
+    resource_cost: 15
+    effect_summary: Close-range water strike that slows the front line.
+  - id: skill.huyen_trieu.trieu_keo
+    system_id: system.huyen_trieu
+    slot: skill_2
+    binding: F
+    cast_type: DIRECTIONAL
+    unlock_level: 3
+    cooldown_seconds: 8
+    resource_cost: 20
+    effect_summary: Pulls a target lane inward and weakens the hit group.
+  - id: skill.huyen_trieu.man_suong
+    system_id: system.huyen_trieu
+    slot: skill_3
+    binding: Q
+    cast_type: DIRECTIONAL
+    unlock_level: 5
+    cooldown_seconds: 10
+    resource_cost: 25
+    effect_summary: Throws mist along the lane and weakens clustered enemies.
+  - id: skill.huyen_trieu.hoi_luu
+    system_id: system.huyen_trieu
+    slot: skill_4
+    binding: SHIFT_RMB
+    cast_type: INSTANT
+    unlock_level: 7
+    cooldown_seconds: 14
+    resource_cost: 30
+    effect_summary: Self-sustain tide that stabilizes a retreat or re-entry.
+  - id: skill.huyen_trieu.ult.hai_nhan
+    system_id: system.huyen_trieu
+    slot: ultimate
+    binding: SHIFT_F
+    cast_type: GROUND_TARGET
+    unlock_level: 10
+    cooldown_seconds: 45
+    resource_cost: 60
+    effect_summary: Floods a target area with heavy slow and weakness.
+  - id: skill.lam_phong.passive.phong_hanh
+    system_id: system.lam_phong
+    slot: passive
+    binding: PASSIVE
+    cast_type: PASSIVE
+    unlock_level: 1
+    cooldown_seconds: 0
+    resource_cost: 0
+    effect_summary: Getting clipped grants a brief windstep burst to reposition.
+  - id: skill.lam_phong.phong_cat
+    system_id: system.lam_phong
+    slot: skill_1
+    binding: RMB
+    cast_type: INSTANT
+    unlock_level: 1
+    cooldown_seconds: 4
+    resource_cost: 15
+    effect_summary: Fast wind cut that pushes enemies off their lane.
+  - id: skill.lam_phong.luon_gio
+    system_id: system.lam_phong
+    slot: skill_2
+    binding: F
+    cast_type: DIRECTIONAL
+    unlock_level: 3
+    cooldown_seconds: 7
+    resource_cost: 20
+    effect_summary: Forward dash that keeps momentum for pursuit or escape.
+  - id: skill.lam_phong.cat_khong
+    system_id: system.lam_phong
+    slot: skill_3
+    binding: Q
+    cast_type: DIRECTIONAL
+    unlock_level: 5
+    cooldown_seconds: 10
+    resource_cost: 25
+    effect_summary: Narrow gust that launches and staggers targets in front.
+  - id: skill.lam_phong.thuan_phong
+    system_id: system.lam_phong
+    slot: skill_4
+    binding: SHIFT_RMB
+    cast_type: INSTANT
+    unlock_level: 7
+    cooldown_seconds: 13
+    resource_cost: 30
+    effect_summary: Wind stance that boosts movement and jump control.
+  - id: skill.lam_phong.ult.lam_gio
+    system_id: system.lam_phong
+    slot: ultimate
+    binding: SHIFT_F
+    cast_type: GROUND_TARGET
+    unlock_level: 10
+    cooldown_seconds: 45
+    resource_cost: 60
+    effect_summary: Violent airburst that knocks enemies away from the hotspot lane.

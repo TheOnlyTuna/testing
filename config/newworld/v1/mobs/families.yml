@@ -1,0 +1,26 @@
+schema_version: 1
+families:
+  - id: mob_family.bo_binh_thoi_rua
+    name: Bo Binh Thoi Rua
+    role: frontliner
+  - id: mob_family.xa_thu_hoang_vuc
+    name: Xa Thu Hoang Vuc
+    role: ranged_pressure
+  - id: mob_family.phao_dai_di_dong
+    name: Phao Dai Di Dong
+    role: anchor
+  - id: mob_family.bay_san_moi
+    name: Bay San Moi
+    role: skirmisher
+  - id: mob_family.ke_cay_doc
+    name: Ke Cay Doc
+    role: attrition
+  - id: mob_family.ke_ngat_niem
+    name: Ke Ngat Niem
+    role: disruptor
+  - id: mob_family.giao_si_di_hoa
+    name: Giao Si Di Hoa
+    role: support_corruptor
+  - id: mob_family.thu_linh_da_ngoai
+    name: Thu Linh Da Ngoai
+    role: leader

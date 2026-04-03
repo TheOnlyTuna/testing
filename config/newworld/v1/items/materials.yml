@@ -1,0 +1,123 @@
+schema_version: 1
+materials:
+  - id: material.basic.sat_tinh
+    name: Sat Tinh
+    source_tags: [mining, refine]
+    sink_tags: [upgrade, recipe]
+  - id: material.basic.than_cung
+    name: Than Cung
+    source_tags: [mining]
+    sink_tags: [refine, recipe]
+  - id: material.mob.xuong_muc
+    name: Xuong Muc
+    source_tags: [mob_drop]
+    sink_tags: [recipe]
+    lore:
+      - Mob drop for early recovery brewing.
+      - Grind at Coi Xay, then cook with Bot Hu Huyet.
+    pickup_hint: "Xuong Muc: grind it at Coi Xay for early potion base materials."
+  - id: material.mob.gan_kho
+    name: Gan Kho
+    source_tags: [mob_drop]
+    sink_tags: [upgrade]
+  - id: material.mob.bot_hu_huyet
+    name: Bot Hu Huyet
+    source_tags: [mob_drop]
+    sink_tags: [recipe]
+    lore:
+      - Mob drop for early potion base.
+      - Cook it with Bot Xuong Muc at Noi Nau.
+    pickup_hint: "Bot Hu Huyet: keep this for Noi Nau recipes and early potion progress."
+  - id: material.region.da_mach_do
+    name: Da Mach Do
+    source_tags: [hotspot]
+    sink_tags: [upgrade]
+    lore:
+      - Hotspot-only upgrade material.
+      - Sinh Tro is worth entering for this.
+    pickup_hint: "Da Mach Do: hotspot reward. Bring it back for stronger upgrade progress."
+  - id: material.agri.hong_mach
+    name: Hong Mach
+    source_tags: [farming]
+    sink_tags: [recipe]
+    lore:
+      - Early grain for the vertical slice food loop.
+      - Grind at Coi Xay, then cook at Noi Nau.
+    pickup_hint: "Hong Mach: bring this to Coi Xay, then Noi Nau for early supplies."
+  - id: material.agri.thanh_dau
+    name: Thanh Dau
+    source_tags: [farming]
+    sink_tags: [recipe]
+    lore:
+      - Early bean ingredient for slice supplies.
+      - Grind at Coi Xay, then cook at Noi Nau.
+    pickup_hint: "Thanh Dau: grind this first, then cook it into supplies at Noi Nau."
+  - id: material.agri.thach_cu
+    name: Thach Cu
+    source_tags: [farming]
+    sink_tags: [recipe]
+    lore:
+      - Cooking filler for early supplies.
+      - Pair it with ground Hong Mach or Thanh Dau.
+    pickup_hint: "Thach Cu: keep this for Noi Nau. It finishes your first food recipes."
+  - id: material.refine.phe_trang
+    name: Phe Trang
+    source_tags: [elite_drop, salvage]
+    sink_tags: [upgrade]
+    lore:
+      - Hotspot salvage that speeds up progression.
+      - Stronger mobs are worth fighting for this.
+    pickup_hint: "Phe Trang: strong enemy salvage. Hotspot mobs are worth killing for it."
+  - id: material.element.manh_tan
+    name: Manh Tan
+    source_tags: [system_drop]
+    sink_tags: [feature_unlock]
+  - id: material.food.bot_hong_mach
+    name: Bot Hong Mach
+    source_tags: [recipe]
+    sink_tags: [recipe]
+    lore:
+      - Ground grain ready for Noi Nau.
+  - id: material.food.bot_thanh_dau
+    name: Bot Thanh Dau
+    source_tags: [recipe]
+    sink_tags: [recipe]
+    lore:
+      - Ground bean ingredient ready for Noi Nau.
+  - id: material.alchemy.bot_xuong_muc
+    name: Bot Xuong Muc
+    source_tags: [recipe]
+    sink_tags: [recipe]
+  - id: material.alchemy.nen_duoc_dich
+    name: Nen Duoc Dich
+    source_tags: [recipe]
+    sink_tags: [feature_unlock]
+    lore:
+      - Potion base for Alpha Core brewing.
+      - Combine it with Manh Tan at Binh U.
+  - id: material.alchemy.xuc_tac_tan
+    name: Xuc Tac Tan
+    source_tags: [recipe]
+    sink_tags: [upgrade]
+    lore:
+      - Brewed catalyst for Ban Ren upgrades.
+      - Carry this with Phoi Sat Tinh to the forge.
+  - id: material.refine.phoi_sat_tinh
+    name: Phoi Sat Tinh
+    source_tags: [recipe]
+    sink_tags: [upgrade]
+    lore:
+      - Refined metal blank from Lo Tinh Luyen.
+      - Ban Ren consumes this for D to C upgrades.
+  - id: material.food.banh_hong_mach
+    name: Banh Hong Mach
+    source_tags: [recipe]
+    sink_tags: [consumable]
+    lore:
+      - Early supply food for longer runs.
+  - id: material.food.chao_thanh_tuc
+    name: Chao Thanh Tuc
+    source_tags: [recipe]
+    sink_tags: [consumable]
+    lore:
+      - Early supply food for sustain between fights.

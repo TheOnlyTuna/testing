@@ -1,0 +1,34 @@
+schema_version: 1
+claims:
+  chunk_size: 16
+  personal_limit: 9
+  team_limit: 25
+  team_runtime_enabled: false
+  allowed_zone_ids:
+    - zone.main.survival_main_01
+    - zone.main.tan_diem.survival_01
+  blocked_zone_ids:
+    - zone.main.spawn_ring
+    - zone.main.landmark_core.sinh_tro.01
+    - hotspot.transition.sinh_tro.01.inner
+    - hotspot.transition.sinh_tro.01.outer
+    - zone.resource.frontier_01
+    - zone.resource.landmark_core.01
+    - zone.resource.dead_rim
+  fees:
+    personal_create_fee_id: fee.claim.personal.create
+    personal_expand_fee_id: fee.claim.personal.expand
+  role_permissions:
+    personal:
+      owner:
+        place: true
+        break: true
+        container: true
+        crop: true
+        station: true
+      outsider:
+        place: false
+        break: false
+        container: false
+        crop: false
+        station: false
