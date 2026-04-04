@@ -137,13 +137,13 @@ LUCK_CHARM:
     material: GOLD_NUGGET
     name: §e§lLuck Charm
     lore:
-      - §7Gives §2Luck III§7, §e+50%§7 Enchanting skill EXP
-      - §7and §e+25%§7 experience dropped on mobs
+      - §7Gives §2Luck III§7 and §e+75%§7 main class EXP
+      - §7from combat while held.
       - §7when held.
       - §cWon't drop on death and can't be stacked!
     perm-effects:
       LUCK: 3.0
-    additional-experience: 25.0
+    additional-experience: 75.0
     tier: MAGICAL
     required-level: 5.0
     required-class:
@@ -152,7 +152,6 @@ LUCK_CHARM:
     disable-smelting: true
     disable-interaction: true
     handworn: true
-    additional-experience-enchanting: 50.0
     crafting:
       shaped:
         '1':

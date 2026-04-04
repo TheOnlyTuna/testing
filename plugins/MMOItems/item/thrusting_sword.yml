@@ -18,7 +18,7 @@ SKILLED_SWORD:
       max-spread: 0.2
     lore:
       - §6Only for the masters.
-    required-dexterity: 14.0
+    required-than-phap: 14.0
     required-level: 14.0
     ability:
       ability1:

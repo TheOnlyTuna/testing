@@ -429,3 +429,6 @@ damage_types:
     - PHYSICAL
     DROWNING:
     - PHYSICAL
+class-plugin: MMOCORE
+level-plugin: MMOCORE
+mana-plugin: MMOCORE

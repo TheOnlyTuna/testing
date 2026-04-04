@@ -1,3 +1,21 @@
+CC_TAN_BINH_KIEM:
+  base:
+    material: IRON_SWORD
+    name: '&fTân Binh Kiếm'
+    lore:
+    - '&7Thanh kiếm tiêu chuẩn của một Hào Kiệt mới vào loạn thế.'
+    - '&7Thiên về áp sát, giữ nhịp giao tranh và trụ đòn cơ bản.'
+    tier: COMMON
+    attack-damage: 5.5
+    attack-speed: 1.65
+    weapon-damage: 3.0
+    max-health: 2.0
+    additional-vo-luc: 2.0
+    additional-can-cot: 1.0
+    required-class:
+    - Hào Kiệt
+    required-level: 1.0
+
 LONG_SWORD:
   base:
     material: IRON_SWORD

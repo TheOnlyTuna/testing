@@ -93,6 +93,7 @@ attributes:
 main-exp-sources:
 - 'killmob{type=ZOMBIE;amount=8-12}'
 - 'killmob{type=SKELETON;amount=9-13}'
+- 'killmob{type=WITCH;amount=12-16}'
 - 'killmob{type=SPIDER;amount=10-14}'
 - 'killmob{type=CREEPER;amount=12-16}'
 - 'killmob{type=ENDERMAN;amount=25-30}'

@@ -1,3 +1,22 @@
+CC_TAN_BINH_CUNG:
+  base:
+    material: BOW
+    name: '&fTân Binh Cung'
+    lore:
+    - '&7Cây cung thô nhưng đủ cho một Hào Kiệt luyện nhắm bắn và giữ khoảng cách.'
+    - '&7Thiên về nội tức ổn định và kiểm soát nhịp bắn.'
+    tier: COMMON
+    attack-damage: 4.5
+    projectile-damage: 2.0
+    critical-strike-chance: 6.0
+    max-mana: 4.0
+    mana-regeneration: 0.3
+    additional-than-phap: 1.0
+    additional-noi-tuc: 2.0
+    required-class:
+    - Hào Kiệt
+    required-level: 1.0
+
 COMPOSITE_BOW:
   base:
     material: BOW

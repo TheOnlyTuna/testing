@@ -1,0 +1,35 @@
+CC_RANDOM_SON_TAC:
+  Type: CC_SON_TAC_CAN_CHIEN
+  Worlds: world
+  Chance: 0.08
+  Priority: 1
+  Action: REPLACE
+  Conditions:
+  - outside true
+
+CC_RANDOM_CUNG_BINH:
+  Type: CC_CUNG_BINH_SON_TRAI
+  Worlds: world
+  Chance: 0.08
+  Priority: 1
+  Action: REPLACE
+  Conditions:
+  - outside true
+
+CC_RANDOM_THUAT_SI:
+  Type: CC_THUAT_SI_SON_TRAI
+  Worlds: world
+  Chance: 0.035
+  Priority: 1
+  Action: REPLACE
+  Conditions:
+  - outside true
+
+CC_RANDOM_DAU_MUC:
+  Type: CC_DAU_MUC_SON_TRAI
+  Worlds: world
+  Chance: 0.008
+  Priority: 2
+  Action: REPLACE
+  Conditions:
+  - outside true

@@ -1,0 +1,75 @@
+CC_SON_TAC_CAN_CHIEN:
+  Type: ZOMBIE
+  Display: '&cSơn Tặc'
+  Health: 34
+  Damage: 5
+  Equipment:
+  - LEATHER_HELMET HEAD
+  - LEATHER_CHESTPLATE CHEST
+  - LEATHER_LEGGINGS LEGS
+  - LEATHER_BOOTS FEET
+  - STONE_SWORD HAND
+  Drops:
+  - CC_SON_TAC_DROPS
+  Options:
+    MovementSpeed: 0.28
+    PreventOtherDrops: true
+    FollowRange: 24
+  Skills:
+  - skill{s=CC_SON_TAC_CHEM} @target ~onAttack 0.25
+
+CC_CUNG_BINH_SON_TRAI:
+  Type: SKELETON
+  Display: '&eCung Binh Sơn Trại'
+  Health: 28
+  Damage: 4
+  Equipment:
+  - LEATHER_HELMET HEAD
+  - LEATHER_CHESTPLATE CHEST
+  - LEATHER_LEGGINGS LEGS
+  - LEATHER_BOOTS FEET
+  - BOW HAND
+  Drops:
+  - CC_CUNG_BINH_DROPS
+  Options:
+    MovementSpeed: 0.27
+    PreventOtherDrops: true
+    FollowRange: 32
+
+CC_THUAT_SI_SON_TRAI:
+  Type: WITCH
+  Display: '&5Thuật Sĩ Sơn Trại'
+  Health: 26
+  Damage: 3
+  Drops:
+  - CC_THUAT_SI_DROPS
+  Options:
+    MovementSpeed: 0.24
+    PreventOtherDrops: true
+    FollowRange: 28
+  Skills:
+  - skill{s=CC_LOI_NGUYEN_SON_TRAI} @target ~onTimer:140
+
+CC_DAU_MUC_SON_TRAI:
+  Type: ZOMBIE
+  Display: '&6Đầu Mục Sơn Trại'
+  Health: 120
+  Damage: 8
+  Equipment:
+  - CHAINMAIL_HELMET HEAD
+  - IRON_CHESTPLATE CHEST
+  - CHAINMAIL_LEGGINGS LEGS
+  - IRON_BOOTS FEET
+  - IRON_AXE HAND
+  Drops:
+  - CC_DAU_MUC_DROPS
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.31
+    PreventOtherDrops: true
+    FollowRange: 30
+    MaxCombatDistance: 28
+    KnockbackResistance: 0.5
+  Skills:
+  - skill{s=CC_DAU_MUC_HET_LENH} @self ~onCombat
+  - skill{s=CC_DAU_MUC_QUET_NGANG} @target ~onTimer:100 0.35

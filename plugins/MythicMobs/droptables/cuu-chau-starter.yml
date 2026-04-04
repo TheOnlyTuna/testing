@@ -1,0 +1,38 @@
+CC_STARTER_WEAPON_POOL:
+  MinItems: 1
+  MaxItems: 1
+  Drops:
+  - mmoitem{type=sword;id=CC_TAN_BINH_KIEM} 1 0.45
+  - mmoitem{type=spear;id=CC_TAN_BINH_THUONG} 1 0.3
+  - mmoitem{type=bow;id=CC_TAN_BINH_CUNG} 1 0.25
+
+CC_SON_TAC_DROPS:
+  Conditions:
+  - playerwithin{d=48}
+  Drops:
+  - CC_DONG_CUU_CHAU 1to3 0.9
+  - mmoitem{type=sword;id=CC_TAN_BINH_KIEM} 1 0.06
+
+CC_CUNG_BINH_DROPS:
+  Conditions:
+  - playerwithin{d=48}
+  Drops:
+  - CC_DONG_CUU_CHAU 1to3 0.9
+  - ARROW 2to5 0.85
+  - mmoitem{type=bow;id=CC_TAN_BINH_CUNG} 1 0.06
+
+CC_THUAT_SI_DROPS:
+  Conditions:
+  - playerwithin{d=48}
+  Drops:
+  - CC_DONG_CUU_CHAU 2to4 0.95
+  - GLASS_BOTTLE 1to2 0.8
+  - CC_BI_KIP_HO_THE 1 0.12
+
+CC_DAU_MUC_DROPS:
+  Conditions:
+  - playerwithin{d=48}
+  Drops:
+  - CC_STARTER_WEAPON_POOL 1
+  - CC_DONG_CUU_CHAU 8to12 1
+  - CC_BI_KIP_HO_THE 1 0.5

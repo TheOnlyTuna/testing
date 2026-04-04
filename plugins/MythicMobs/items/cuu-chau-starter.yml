@@ -1,0 +1,12 @@
+CC_DONG_CUU_CHAU:
+  Id: GOLD_NUGGET
+  Display: '&6Đồng Cửu Châu'
+  Lore:
+  - '&7Tiền vụn nhặt được từ đám thảo khấu.'
+
+CC_BI_KIP_HO_THE:
+  Id: PAPER
+  Display: '&bBí Kíp Hộ Thể'
+  Lore:
+  - '&7Ghi lại vài dòng khẩu quyết hộ thân.'
+  - '&7Có thể dùng làm mốc rơi đồ cho vòng test.'

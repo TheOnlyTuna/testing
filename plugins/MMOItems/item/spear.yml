@@ -1,3 +1,22 @@
+CC_TAN_BINH_THUONG:
+  base:
+    material: TRIDENT
+    name: '&fTân Binh Thương'
+    lore:
+    - '&7Mũi thương nhập môn dành cho thế đánh chọc, ép góc và đổi vị trí.'
+    - '&7Thiên về thân pháp và nhịp ra tay linh hoạt.'
+    tier: COMMON
+    attack-damage: 6.0
+    attack-speed: 1.75
+    weapon-damage: 2.0
+    critical-strike-chance: 4.0
+    movement-speed: 0.01
+    additional-than-phap: 2.0
+    additional-muu-tri: 1.0
+    required-class:
+    - Hào Kiệt
+    required-level: 1.0
+
 SHARP_SPEAR:
   base:
     material: TRIDENT

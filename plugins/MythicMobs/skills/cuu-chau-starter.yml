@@ -1,0 +1,36 @@
+CC_SON_TAC_CHEM:
+  Cooldown: 6
+  Conditions:
+  - targetwithin{d=4}
+  Skills:
+  - effect:sound{s=entity.player.attack.sweep;volume=1;pitch=1} @self
+  - effect:particles{p=crit;amount=18;hSpread=0.35;ySpread=0.2;speed=0.05} @target
+  - damage{amount=2} @target
+
+CC_LOI_NGUYEN_SON_TRAI:
+  Cooldown: 12
+  Conditions:
+  - targetwithin{d=16}
+  Skills:
+  - effect:sound{s=entity.witch.celebrate;volume=1;pitch=0.9} @self
+  - effect:particles{p=witch;amount=30;hSpread=0.5;ySpread=0.5;speed=0.03} @target
+  - potion{type=WEAKNESS;lvl=0;duration=80} @target
+  - potion{type=SLOW;lvl=1;duration=60} @target
+
+CC_DAU_MUC_HET_LENH:
+  Cooldown: 20
+  Skills:
+  - effect:sound{s=event.raid.horn;volume=1;pitch=1} @self
+  - potion{type=INCREASE_DAMAGE;lvl=0;duration=120} @self
+  - potion{type=SPEED;lvl=0;duration=120} @self
+
+CC_DAU_MUC_QUET_NGANG:
+  Cooldown: 10
+  Conditions:
+  - targetwithin{d=5}
+  Skills:
+  - effect:sound{s=entity.player.attack.sweep;volume=1;pitch=0.8} @self
+  - delay 10
+  - effect:particles{p=crit;amount=28;hSpread=0.5;ySpread=0.25;speed=0.08} @self
+  - damage{amount=5} @PlayersInRadius{r=3}
+  - throw{velocity=3;velocityY=1} @PlayersInRadius{r=3}
